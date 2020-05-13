@@ -104,11 +104,11 @@
     </profile>
   </profiles>
 
-  <distributionManagement>
+<distributionManagement>
     <repository>
-      <id>artifactory</id>
-      <name>release</name>
-      <url>http://localhost:8082/artifactory/libs-release-local</url>
+        <id>central</id>
+        <name>E6430-releases</name>
+        <url>http://localhost:8081/artifactory/libs-release</url>
     </repository>
     <snapshotRepository>
       <id>artifactory</id>
